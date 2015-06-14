@@ -272,7 +272,7 @@ func (c *comm) connectToAgent() {
 
 	err = agent.RequestAgentForwarding(session)
 	if err != nil {
-		log.Printf("RequestAgentForwarding:", err)
+		log.Printf("RequestAgentForwarding: %s", err)
 		return
 	}
 
