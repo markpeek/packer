@@ -62,6 +62,8 @@ type Config struct {
 
 	RawSingleISOUrl string `mapstructure:"iso_url"`
 
+	ThirdPartySwitchCompatibility bool `mapstructure:"third_party_switch_compatibility"`
+
 	ctx interpolate.Context
 }
 
